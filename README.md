@@ -13,5 +13,3 @@
     sudo docker build -t tg ./
     sudo docker run -d --name tgbot tg
 </table>
-[pictures]()
-<p>&nbsp;</p>
