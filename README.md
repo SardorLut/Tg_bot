@@ -7,8 +7,8 @@
 
 <table border="1" cellpadding="1" cellspacing="1" dir="ltr" style="width:500px">
 
-    git clone 
-    cd 
+    git clone https://github.com/SardorLut/Tg_bot.git
+    cd Tg_bot
     git checkout dev
     sudo docker build -t tg ./
     sudo docker run -d --name tgbot tg
