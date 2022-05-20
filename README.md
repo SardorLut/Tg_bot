@@ -7,11 +7,8 @@
 
 <table border="1" cellpadding="1" cellspacing="1" dir="ltr" style="width:500px">
 
-    git clone 
-    cd 
-    git checkout dev
-    sudo docker build -t tg ./
+    git clone https://github.com/SardorLut/Tg_bot.git
+    cd Tg_bot
+    sudo docker build -t tg --build-arg TELEGRAM_API_TOKEN=<token> ./
     sudo docker run -d --name tgbot tg
 </table>
-[pictures]()
-<p>&nbsp;</p>
